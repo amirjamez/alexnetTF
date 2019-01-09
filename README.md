@@ -73,3 +73,14 @@ $ python eval_image_classifier.py     --alsologtostderr     --checkpoint_path=${
 2019-01-09 11:22:00.403139: I tensorflow/core/kernels/logging_ops.cc:79] eval/Recall_5[0.79854]
 INFO:tensorflow:Finished evaluation at 2019-01-09-16:22:00
 ```
+
+## AlexNet Pretraind Model
+
+For those who wants to use the preatrained model, I have uploaded the model files as [AlexNet_Pretrained](https://drive.google.com/file/d/1ICnwX2fgyPMkJ0DyjOdLDadEO0C9C_ll/view?usp=sharing). The .zip file contains:
+
+```
+model.ckpt-9048119.data-00000-of-00001
+model.ckpt-9048119.index
+model.ckpt-9048119.meta
+```
+
