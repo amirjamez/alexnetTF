@@ -60,6 +60,16 @@ At this point you are good to strat training alexnet_v2 as per another tf.slim m
 $ python train_image_classifier.py     --train_dir=amir-alexnet-v2-results-oct2018/trained     --dataset_name=imagenet     --dataset_split_name=train     --dataset_dir=${DATASET_DIR}     --model_name=alexnet_v2
 ```
 
+This uses mostly default hyperparameters as:
+
+```
+---batch_size=32
+--learning_rate=0.01
+--end_learning_rate=0.0001
+--num_epochs_per_decay=2.0
+
+```
+
 ## Inference Accuracy
 You can easily evaluate the accuracy by executing this:
 
