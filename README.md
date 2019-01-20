@@ -1,5 +1,5 @@
 # AlexNet Pretrained
-There are a number of recent pretrained models available in [TensorFlow-Slim Research](https://github.com/tensorflow/models/tree/master/research/slim#fine-tuning-a-model-from-an-existing-checkpoint) for which users can download and finetune to other datasets, or, evaluate for classification tasks. However, there was no `AlexNet`in the list and this repo helps you reproduce that for `ImageNet` dataset. I also provide a pretrained model captured at 9 million iterations with `Top-5 accuracy of 79.85%` for those who doesn't want to train it from scracth. 
+There are a number of recent pretrained models available in [TensorFlow-Slim Research](https://github.com/tensorflow/models/tree/master/research/slim#fine-tuning-a-model-from-an-existing-checkpoint) for which users can download and finetune to other datasets, or, evaluate for classification tasks. However, there was no `AlexNet`in the list and this repo helps you reproduce that for `ImageNet` dataset. I also provide a pretrained model captured at 9 million iterations with `Top-5 accuracy of 79.85%` and a `Top-1 accuracy of 56.8%` for those who doesn't want to train it from scracth. 
 
 If you have optimized the training hyperparameters and managed to converge to a higher accuracy, please share your code here in the comment section bellow, so other can benefit from it as well.
 
